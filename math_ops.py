@@ -5,9 +5,9 @@ def add(*args):
     return sum
 
 def subtract(*args):
-    difference = 0
-    for each in args:
-        difference -= each
+    difference = args[0]
+    for each in args[1:]:
+        difference = difference - each
     return difference
 
 def multiply(*args):
@@ -16,5 +16,7 @@ def multiply(*args):
         multiply *= each
     return multiply
 
-
-print(multiply(5, 6, 1, 4))
+def divide(a,b):
+    if b == 0:
+        return "Error! Division by Zero"
+    return a / b
