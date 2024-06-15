@@ -20,3 +20,5 @@ def divide(a,b):
     if b == 0:
         return "Error! Division by Zero"
     return a / b
+
+print(subtract(3, 8))
