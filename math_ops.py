@@ -21,4 +21,7 @@ def divide(a,b):
         return "Error! Division by Zero"
     return a / b
 
-print(subtract(3, 8))
+print(add(3, 8, 9, 10, 10, 10 ,10))
+print(subtract(6, 5))
+
+

@@ -1,6 +1,3 @@
-
-
-
 def multiply(*args):
     multiply = 1
     for each in args:
