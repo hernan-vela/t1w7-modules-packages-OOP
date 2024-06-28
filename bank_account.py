@@ -8,14 +8,14 @@ class BankAccount:
             self.balance += amount
             return f"Deposit Successful! New Balance: {self.balance}"
         else:
-            return "Invalid deposit amount"
+            return f"Invalid deposit amount"
     
     def withdraw(self, amount):
         if 0 < amount <= self.balance:
             self.balance -= amount
             return f"Withdrawal successful! New balance: {self.balance}"
         else:
-            return "Invalid withdrawal amount or insufficient funds!"
+            return f"Invalid withdrawal amount or insufficient funds!"
     
     def get_balance(self):
         return f"Account Balance: {self.balance}"
